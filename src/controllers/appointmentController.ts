@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import Appointment from '../models/Appointment';
 
-// Interface para garantir a tipagem do corpo da requisição
 interface AppointmentBody {
   firstName: string;
   lastName: string;
