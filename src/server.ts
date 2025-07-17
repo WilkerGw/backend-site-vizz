@@ -10,7 +10,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://oticasvizz.com.br/agendamento",
+  "https://oticasvizz.com.br",
 ];
 
 const corsOptions = {
